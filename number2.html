@@ -1,0 +1,23 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<script>
+		function fib() {
+			var a = 1,
+			b = 1;
+			for (var i = 3; i <= 10; i++) {
+				var c = a + b;
+				a = b;
+				b = c;
+			}
+			alert(b); 
+			return b;
+			console.log(b);
+		}
+	</script>
+</head>
+<body>
+	<button onClick="fib()">Посчитать</button>
+</body>
+</html>
